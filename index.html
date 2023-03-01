@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Proyecto CV</title>
+</head>
+<body>
+    <div class="cajas-de-contenido">
+        <div class="caja c-1"></div>
+        <div class="caja c-2"></div>
+        <div class="caja c-3"></div>
+        <div class="caja c-4"></div>
+    </div>
+    <div class="contenido">
+        <header>
+            <div class="menu">
+                <ul>
+                    <li class="activo" data-menu="perfil">
+                        <a href="#perfil">
+                            <i class="fa-solid fa-user-tie"></i>
+                            <span class="link">perfil</span>
+                        </a>
+                    </li>
+                    <li data-menu="curriculum">
+                        <a href="#curriculum">
+                            <i class="fa-regular fa-clipboard"></i>
+                            <span class="link">curriculum</span>
+                        </a>
+                    </li>
+                    <li data-menu="proyectos">
+                        <a href="#proyectos">
+                            <i class="fa-solid fa-code"></i>
+                            <span class="link">proyectos</span>
+                        </a>
+                    </li>
+                    <li data-menu="contacto">
+                        <a href="#contacto">
+                            <i class="fa-solid fa-phone-volume"></i>
+                            <span class="link">contacto</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div id="principal" class="principal">
+            <div class="imagen-principal">
+                <img src="Imagenes/perfil.jpg" alt="Imagen de perfil">
+            </div>
+            <div class="informacion-principal">
+                <h2 class="titulo">Lionel Messi</h2>
+                <div class="detalles">
+                    <h3 id="subtitulo" class="subtitulo"></h3>
+                    <p class="blink">|</p>
+                </div>   
+            </div>
+            <div class="redes">
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/?lang=es" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="links">
+                <a href="#">descargar cv</a>
+                <a href="#contacto" data-menu="contacto" id="contactarme">contactame</a>
+            </div>
+        </div>
+        <section id="perfil" class="perfil activo">
+            <div class="perfil-info cuadro">
+                <h3 class="titulo-resaltado">acerca <span>de mi</span></h3>
+                <div class="fila">
+                    <div class="texto">
+                        <p> Hola, soy Lionel Andrés Messi, actualmente jugando profesionalmente fútbol
+                            en el PSG, pero a su vez desarrollando webs en mis tiempos libres porque soy
+                            un crack y quiero ganar mi primer teclado de oro. </p>
+                    </div>
+                    <div class="datos-personales">
+                        <ul>
+                            <li><strong>edad</strong> 35 primaveras</li>
+                            <li><strong>domicilio</strong> París, Francia</li>
+                            <li><strong>nacionalidad</strong> Argentino</li>
+                            <li><strong>disponibilidad</strong> freelance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="mis-servicios cuadro">
+                <h3 class="titulo-resaltado">mis <span>servicios</span></h3>
+                <div class="servicios-contenido">
+                    <div class="servicios">
+                        <div class="icono">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h4>Desarrollo Web</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, iste!</p>
+                    </div>
+                    <div class="servicios">
+                        <div class="icono">
+                            <i class="fa-solid fa-palette"></i>
+                        </div>
+                        <h4>Diseño Web</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, iste!</p>
+                    </div>
+                    <div class="servicios">
+                        <div class="icono">
+                            <i class="fa-solid fa-hashtag"></i>
+                        </div>
+                        <h4>Redes</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, iste!</p>
+                    </div>
+                    <div class="servicios">
+                        <div class="icono">
+                            <i class="fa-regular fa-face-smile"></i>
+                        </div>
+                        <h4>Felicidad</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, iste!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="curriculum" class="curriculum">
+            <div class="curriculum-contenido cuadro">
+                <h3 class="titulo-resaltado">C<span>urriculum</span></h3>
+                <div class="fila">
+                    <div class="experiencia">
+                        <div class="titulo">
+                            <i class="fa-regular fa-clipboard"></i>
+                            <h4>experiencia</h4>
+                        </div>
+                        <div class="caja-experiencia">
+                            <span>2022 - actualidad</span>
+                            <h4>desarrollador front-end</h4>
+                            <h5>PSG social</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, corrupti.</p>
+                        </div>
+                        <div class="caja-experiencia">
+                            <span>2018 - 2022</span>
+                            <h4>desarrollador front-end junior</h4>
+                            <h5>barcelona social</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, corrupti.</p>
+                        </div>
+                    </div>
+                    <div class="estudios">
+                        <div class="titulo">
+                            <i class="fas fa-university"></i>
+                            <h4>estudios</h4>
+                        </div>
+                        <div class="caja-estudios">
+                            <span>2015 - 2021</span>
+                            <h4>ingenieria de sistemas</h4>
+                            <h5>españa</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, facere.</p>
+                        </div>
+                        <div class="caja-estudios">
+                            <span>2013 - 2014</span>
+                            <h4>curso de programacion</h4>
+                            <h5>españa</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, facere.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="habilidades cuadro">
+                <h3 class="titulo-resaltado">Mis <span>habilidades</span></h3>
+                <div class="fila">
+                    <div class="habilidades-izquierda"> 
+                        <div class="disenio">
+                            <div class="titulo">
+                                <i class="fas fa-paint-brush"></i>
+                                <h4>diseño</h4>
+                            </div>
+                            <div class="caja-disenio">
+                                <h4>diseño web</h4>
+                                <div class="progreso">
+                                    <span data-progress="80%"></span>
+                                </div>
+                            </div>
+                            <div class="caja-disenio">
+                                <h4>diseño gráfico</h4>
+                                <div class="progreso">
+                                    <span data-progress="70%"></span>
+                                </div>
+                            </div>
+                            <div class="caja-disenio">
+                                <h4>transiciones</h4>
+                                <div class="progreso">
+                                    <span data-progress="40%"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="codigos">
+                            <div class="titulo">
+                                <i class="fas fa-code"></i>
+                                <h4>códigos</h4>
+                            </div>
+                            <div class="caja-codigos">
+                                <div class="code">
+                                    <div class="progreso">
+                                        <span class="porcentaje-de-progreso"></span>
+                                        <span class="num" data-num="90"></span>
+                                    </div>
+                                    <h5>HTML</h5> 
+                                </div>
+                                <div class="code">
+                                    <div class="progreso">
+                                        <span class="porcentaje-de-progreso"></span>
+                                        <span class="num" data-num="80"></span>
+                                    </div>
+                                    <h5>CSS</h5>
+                                </div>
+                                <div class="code">
+                                    <div class="progreso">
+                                        <span class="porcentaje-de-progreso"></span>
+                                        <span class="num" data-num="60"></span>
+                                    </div>
+                                    <h5>Javascript</h5>
+                                </div>
+                                <div class="code">
+                                    <div class="progreso">
+                                        <span class="porcentaje-de-progreso"></span>
+                                        <span class="num" data-num="60"></span>
+                                    </div>
+                                    <h5>BootStrap</h5>
+                                </div>                           
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidades-derecha">
+                        <div class="idiomas">
+                            <div class="titulo">
+                                <i class="fas fa-flag"></i>
+                                <h4>idiomas</h4>
+                            </div>
+                            <div class="idioma">
+                                <h4>español</h4>
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                            <div class="idioma">
+                                <h4>inglés</h4>
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                            <div class="idioma">
+                                <h4>francés</h4>
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="otros">
+                            <div class="titulo">
+                                <i class="fas fa-list"></i>
+                                <h4>Otros conocimientos</h4>
+                            </div>
+                            <div class="otros-contenido">
+                                <div class="caja-otros">
+                                    <i class="fa-regular fa-circle-dot"></i>
+                                    <h4>Git y Github</h4>
+                                </div>
+                                <div class="caja-otros">
+                                    <i class="fa-regular fa-circle-dot"></i>
+                                    <h4>Creación de logos</h4>
+                                </div>
+                                <div class="caja-otros">
+                                    <i class="fa-regular fa-circle-dot"></i>
+                                    <h4>Hosteo de páginas</h4>
+                                </div>
+                                <div class="caja-otros">
+                                    <i class="fa-regular fa-circle-dot"></i>
+                                    <h4>Marketing</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="proyectos" class="proyectos">
+            <div class="mis-proyectos cuadro">
+                <h3 class="titulo-resaltado">Proyectos <span>recientes</span></h3>
+                <div class="caja-proyecto">
+                    <div class="caja">
+                        <div class="imagen-de-caja">
+                            <img src="imagenes/proyecto1.jpg" alt="Imagen de proyecto 1">
+                        </div>
+                        <div class="contenido-caja">
+                            <h4>Proyecto levantar la 3ra</h4>
+                            <p><span>Diseño de Campeón</span> / 18 Dic. 2022</p>
+                        </div>
+                    </div>
+                    <div class="caja">
+                        <div class="imagen-de-caja">
+                            <img src="imagenes/proyecto2.jpg" alt="Imagen de proyecto 2">
+                        </div>
+                        <div class="contenido-caja">
+                            <h4>Proyecto levantar la 3ra</h4>
+                            <p><span>Diseño de Campeón</span> / 18 Dic. 2022</p>
+                        </div>
+                    </div>
+                    <div class="caja">
+                        <div class="imagen-de-caja">
+                            <img src="imagenes/proyecto3.jpg" alt="Imagen de proyecto 3">
+                        </div>
+                        <div class="contenido-caja">
+                            <h4>Proyecto levantar la 3ra</h4>
+                            <p><span>Diseño de Campeón</span> / 18 Dic. 2022</p>
+                        </div>
+                    </div>
+                    <div class="caja">
+                        <div class="imagen-de-caja">
+                            <img src="imagenes/proyecto4.jpg" alt="Imagen de proyecto 4">
+                        </div>
+                        <div class="contenido-caja">
+                            <h4>Proyecto levantar la 3ra</h4>
+                            <p><span>Diseño de Campeón</span> / 18 Dic. 2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacto" class="contacto">
+            <div class="contactarme cuadro">
+                <h3 class="titulo-resaltado">Comunicate <span>conmigo bobo</span></h3>
+                <div class="contacto-contenido">
+                    <div class="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2625.866860215423!2d2.2521389621605175!3d48.84167821254882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1677599079070!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="informacion">
+                        <ul>
+                            <li><strong>dirección</strong> París, Francia</li>
+                            <li><strong>e-mail</strong> messi@entobien.com</li>
+                            <li><strong>teléfono</strong> +69 4 321456</li>
+                        </ul>
+                    </div>           
+                    <div class="formulario-titulo">
+                        <h3 class="titulo-resaltado">Formulario <span>de contacto</span></h3>
+                    </div>
+                    <div class="formulario-contacto">
+                        <form action="#">
+                            <div class="formulario">
+                                <input type="text" placeholder="Nombre completo" required>
+                            </div>
+                            <div class="formulario">
+                                <input type="email" placeholder="Dirección de e-mail" required>
+                            </div>
+                            <div class="formulario mensaje">
+                                <textarea placeholder="Ingrese su mensaje" required></textarea>
+                            </div>
+                        </form>
+                        <button>Enviar mensaje<span></span></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://kit.fontawesome.com/9e5ba2e3f5.js" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
