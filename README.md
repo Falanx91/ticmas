@@ -1,3 +1,3 @@
 # Ticmas
-Proyecto ticmas
-https://falanx91.github.io/ticmas/
+
+<a href="https://falanx91.github.io/ticmas/">Proyecto CV Ticmas</a>
